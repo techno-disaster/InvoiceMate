@@ -23,8 +23,13 @@
     Text Rekognition is done using Amazon Textract.
     The app also supports on device OCR
     
-    
-    
+### Screenshots
+<div align="center">
+<img src="https://github.com/Techno-Disaster/Invoice/blob/master/screenshots/Screenshot_20200308-084953_InvoiceMate.png" width="210"> &nbsp;
+<img src="https://github.com/Techno-Disaster/Invoice/blob/master/screenshots/Screenshot_20200308-084957_InvoiceMate.png" width="210"> &nbsp;
+<img src="https://github.com/Techno-Disaster/Invoice/blob/master/screenshots/Screenshot_20200308-085007_InvoiceMate.png" width="210">
+</div>
+
 ### Contributing
 
  We're are open to `enhancements` & `bug-fixes` :smile: Also do have a look [here](./CONTRIBUTING.md)
