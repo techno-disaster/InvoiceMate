@@ -38,6 +38,8 @@
  
  ### Note
 - This project was done under ` 36 hours with little to no pre-preparation`
+- We use the sSanbot sdk for cropping the image and Amazon Textract to perform OCR.
+- We use Flutter for our frontend for cross platform support.
 
 ### Contributors
 
