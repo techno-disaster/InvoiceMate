@@ -27,7 +27,8 @@
 <div align="center">
 <img src="https://github.com/Techno-Disaster/Invoice/blob/master/screenshots/Screenshot_20200308-084953_InvoiceMate.png" width="210"> &nbsp;
 <img src="https://github.com/Techno-Disaster/Invoice/blob/master/screenshots/Screenshot_20200308-084957_InvoiceMate.png" width="210"> &nbsp;
-<img src="https://github.com/Techno-Disaster/Invoice/blob/master/screenshots/Screenshot_20200308-085007_InvoiceMate.png" width="210">
+<img src="https://github.com/Techno-Disaster/Invoice/blob/master/screenshots/Screenshot_20200308-085007_InvoiceMate.png" width="210"> &nbsp;
+<img src="https://github.com/Techno-Disaster/Invoice/blob/master/screenshots/Screenshot_20200308-103458_InvoiceMate.png" width="210"> &nbsp;
 </div>
 
 ### Contributing
