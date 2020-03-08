@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?ui_colorPrimary"
+    android:keepScreenOn="true"
+    android:splitMotionEvents="false"
+    tools:background="?ui_colorPrimary">
+
+    <RelativeLayout
+        android:id="@+id/cameraHolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/camera_bottom_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:animateLayoutChanges="true"
+            android:background="?colorPrimary"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/cancelBtn"
+                    style="@style/Scanbot.Toolbar.Button"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/cancel"
+                    android:textColor="?ui_colorAccent"
+                    android:textSize="14sp"
+                    android:textAllCaps="true"
+                    tools:text="@string/cancel" />
+
+                <TextView
+                    android:id="@+id/saveBtn"
+                    style="@style/Scanbot.Toolbar.Button"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:drawablePadding="4dp"
+                    android:drawableRight="@drawable/ui_scan_ico_arrow"
+                    android:drawableTint="?ui_colorAccent"
+                    android:textColor="?ui_colorAccent"
+                    android:textSize="14sp"
+                    android:textAllCaps="true"
+                    android:visibility="gone"
+                    tools:text="5 Pages" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <net.doo.snap.camera.ScanbotCameraView
+            android:id="@+id/scanbotCameraView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/camera_bottom_toolbar"
+            android:gravity="center">
+
+            <net.doo.snap.ui.PolygonView
+                android:id="@+id/polygonView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                app:polygonFillColor="?ui_polygonFillColor"
+                app:polygonStrokeColor="?ui_polygonStrokeColor"
+                app:polygonStrokeWidth="?ui_polygonStrokeWidth" />
+
+        </net.doo.snap.camera.ScanbotCameraView>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/cameraTopToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/camera_top_toolbar_height"
+            android:background="?camera_top_toolbar_bg_transparent"
+            android:visibility="gone"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <io.scanbot.sdk.ui.utils.CheckableFrameLayout
+                    android:id="@+id/multiPageBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <io.scanbot.sdk.ui.utils.CheckableImageButton
+                            android:id="@+id/multi_page_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:clickable="false"
+                            android:src="?multi_page_icon"
+                            app:src_tint="?camera_tool_button_color_selector" />
+
+                        <io.scanbot.sdk.ui.utils.CheckableTextView
+                            android:id="@+id/multi_page_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="middle"
+                            android:paddingLeft="5dp"
+                            android:singleLine="true"
+                            android:text="?multi_page_option"
+                            android:textColor="?camera_tool_button_color_selector"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </io.scanbot.sdk.ui.utils.CheckableFrameLayout>
+
+                <io.scanbot.sdk.ui.utils.CheckableFrameLayout
+                    android:id="@+id/autoSnapBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <io.scanbot.sdk.ui.utils.CheckableImageButton
+                            android:id="@+id/automatic_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:clickable="false"
+                            android:src="?automatic_icon"
+                            app:src_tint="?camera_tool_button_color_selector" />
+
+                        <io.scanbot.sdk.ui.utils.CheckableTextView
+                            android:id="@+id/automatic_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="middle"
+                            android:paddingLeft="5dp"
+                            android:singleLine="true"
+                            android:text="?auto_snap_option"
+                            android:textColor="?camera_tool_button_color_selector"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </io.scanbot.sdk.ui.utils.CheckableFrameLayout>
+
+                <io.scanbot.sdk.ui.utils.CheckableFrameLayout
+                    android:id="@+id/flashBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <io.scanbot.sdk.ui.utils.CheckableImageButton
+                            android:id="@+id/flash_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:clickable="false"
+                            android:src="?flash_icon"
+                            app:src_tint="?camera_tool_button_color_selector" />
+
+                        <io.scanbot.sdk.ui.utils.CheckableTextView
+                            android:id="@+id/flash_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="middle"
+                            android:paddingLeft="5dp"
+                            android:singleLine="true"
+                            android:text="?flash_option"
+                            android:textColor="?camera_tool_button_color_selector"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </io.scanbot.sdk.ui.utils.CheckableFrameLayout>
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <include layout="@layout/camera_permission_placeholder" />
+
+        <TextView
+            android:id="@+id/startup_massage"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_below="@+id/cameraTopToolbar"
+            android:gravity="center"
+            android:background="?camera_startup_message_bg"
+            android:textColor="?attr/camera_startup_message_text_color"
+            android:text="?camera_startup_message_text"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <io.scanbot.sdk.ui.camera.ShutterButton
+            android:id="@+id/shutterBtn"
+            android:layout_width="@dimen/take_picture_size"
+            android:layout_height="@dimen/take_picture_size"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/snap_btn_bottom_margin"
+            android:visibility="gone"
+            android:elevation="6dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressView"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:animateLayoutChanges="true"
+            android:background="?camera_hint_bg"
+            android:gravity="center"
+            android:paddingBottom="6dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="6dp"
+            android:textColor="?camera_hint_text_color"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

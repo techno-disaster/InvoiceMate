@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?ui_colorPrimary"
+    android:keepScreenOn="true"
+    android:splitMotionEvents="false"
+    tools:background="?ui_colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <net.doo.snap.camera.ScanbotCameraView
+            android:id="@+id/scanbotCameraView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/camera_bottom_toolbar">
+
+        </net.doo.snap.camera.ScanbotCameraView>
+
+        <io.scanbot.sdk.ui.camera.FinderOverlayView
+            android:id="@+id/finder_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fixed_width="320dp"
+            app:fixed_height="218dp"/>
+
+        <TextView
+            android:id="@+id/finder_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="192dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="@string/hic_finder_description"/>
+
+        <include layout="@layout/camera_permission_placeholder" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/cameraTopToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentTop="true"
+            android:animateLayoutChanges="true"
+            android:background="?colorPrimary"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/cancelBtn"
+                    style="@style/Scanbot.Toolbar.Button"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/cancel"
+                    android:textColor="?ui_colorAccent"
+                    android:textSize="14sp"
+                    android:textAllCaps="true"
+                    tools:text="@string/cancel" />
+
+                <io.scanbot.sdk.ui.utils.CheckableFrameLayout
+                    android:id="@+id/flashBtn"
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true">
+
+                    <io.scanbot.sdk.ui.utils.CheckableImageButton
+                        android:id="@+id/flash_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="?flash_icon"
+                        app:src_tint="?camera_tool_button_color_selector" />
+
+                </io.scanbot.sdk.ui.utils.CheckableFrameLayout>
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

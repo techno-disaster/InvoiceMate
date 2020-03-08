@@ -1,0 +1,200 @@
+# Referenced at /home/Techno-Disaster/UnifyedHackathon/scanbot-sdk-example-flutter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:22
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /home/Techno-Disaster/UnifyedHackathon/scanbot-sdk-example-flutter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:28
+-keep class com.example.scanbot_sdk_example_flutter.MainActivity { <init>(); }
+# Referenced at /home/Techno-Disaster/UnifyedHackathon/scanbot-sdk-example-flutter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:81
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /home/Techno-Disaster/UnifyedHackathon/scanbot-sdk-example-flutter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:22
+-keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at /home/Techno-Disaster/UnifyedHackathon/scanbot-sdk-example-flutter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:71
+-keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
+# Referenced at /home/Techno-Disaster/UnifyedHackathon/scanbot-sdk-example-flutter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:61
+-keep class io.scanbot.sdk.ui.view.barcode.BarcodeScannerActivity { <init>(); }
+# Referenced at /home/Techno-Disaster/UnifyedHackathon/scanbot-sdk-example-flutter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:55
+-keep class io.scanbot.sdk.ui.view.camera.DocumentScannerActivity { <init>(); }
+# Referenced at /home/Techno-Disaster/UnifyedHackathon/scanbot-sdk-example-flutter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:52
+-keep class io.scanbot.sdk.ui.view.edit.CroppingActivity { <init>(); }
+# Referenced at /home/Techno-Disaster/UnifyedHackathon/scanbot-sdk-example-flutter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:64
+-keep class io.scanbot.sdk.ui.view.hic.HealthInsuranceCardScannerActivity { <init>(); }
+# Referenced at /home/Techno-Disaster/UnifyedHackathon/scanbot-sdk-example-flutter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:58
+-keep class io.scanbot.sdk.ui.view.mrz.MRZScannerActivity { <init>(); }
+# Referenced at /home/Techno-Disaster/UnifyedHackathon/scanbot-sdk-example-flutter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:67
+-keep class io.scanbot.sdk.ui.view.workflow.WorkflowScannerActivity { <init>(); }
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout-watch-v20/abc_alert_dialog_title_material.xml:53
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/material_alert_dialog_title.xml:41
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/material_alert_dialog.xml:51
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_alert_dialog_title_material.xml:56
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_popup_menu_item_layout.xml:17
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_cascading_menu_item_layout.xml:20
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_screen_toolbar.xml:43
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_action_mode_bar.xml:19
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/material_alert_dialog.xml:17
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-base-1.56.0.aar/4eb81a5f366f0d600a0f0f851b05e720/res/layout/shutter_button.xml:15
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/material_alert_dialog_title.xml:36
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_screen_simple.xml:17
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_dialog_title_material.xml:22
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout-v26/abc_screen_toolbar.xml:37
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/workflow_camera_view.xml:12
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/mrz_camera_view.xml:46
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/hic_camera_view.xml:46
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/camera_view.xml:17
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/barcode_camera_view.xml:45
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_screen_simple.xml:25
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/workflow_camera_view.xml:2
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/mrz_camera_view.xml:2
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/hic_camera_view.xml:2
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/camera_view.xml:2
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/barcode_camera_view.xml:2
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/design_bottom_sheet_dialog.xml:26
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/material_alert_dialog.xml:40
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/c395a05f7e45f05184c19dcee2c7a772/res/layout/abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/design_bottom_navigation_item.xml:27
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/design_text_input_password_icon.xml:18
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/design_navigation_item.xml:17
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/design_navigation_menu.xml:17
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/mtrl_layout_snackbar.xml:18
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/design_layout_snackbar.xml:18
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/mtrl_layout_snackbar_include.xml:18
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/abb404f14aaf97235821533726d8f264/res/layout/design_layout_snackbar_include.xml:18
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/mrz_camera_view.xml:24
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/hic_camera_view.xml:24
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/barcode_camera_view.xml:23
+-keep class io.scanbot.sdk.ui.camera.FinderOverlayView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/workflow_camera_view.xml:156
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/camera_view.xml:221
+-keep class io.scanbot.sdk.ui.camera.ShutterButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/workflow_camera_view.xml:40
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/mrz_camera_view.xml:74
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/hic_camera_view.xml:74
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/camera_view.xml:96
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/barcode_camera_view.xml:73
+-keep class io.scanbot.sdk.ui.utils.CheckableFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/workflow_camera_view.xml:48
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/mrz_camera_view.xml:82
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/hic_camera_view.xml:82
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/camera_view.xml:109
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/barcode_camera_view.xml:81
+-keep class io.scanbot.sdk.ui.utils.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/camera_view.xml:118
+-keep class io.scanbot.sdk.ui.utils.CheckableTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/fragment_barcode_camera.xml:6
+-keep class io.scanbot.sdk.ui.view.barcode.BarcodeCameraView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/fragment_camera.xml:6
+-keep class io.scanbot.sdk.ui.view.camera.CameraView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/fragment_edit_polygon.xml:9
+-keep class io.scanbot.sdk.ui.view.edit.EditPolygonView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/fragment_hic_camera.xml:6
+-keep class io.scanbot.sdk.ui.view.hic.HealthInsuranceCardCameraView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/fragment_mrz_camera.xml:6
+-keep class io.scanbot.sdk.ui.view.mrz.MRZCameraView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/fragment_workflow_camera.xml:5
+-keep class io.scanbot.sdk.ui.view.workflow.WorkflowCameraView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/workflow_camera_view.xml:94
+-keep class io.scanbot.sdk.ui.view.workflow.WorkflowFinderOverlayView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/workflow_camera_view.xml:83
+-keep class io.scanbot.sdk.ui.view.workflow.WorkflowPolygonView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/workflow_camera_view.xml:73
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/mrz_camera_view.xml:16
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/hic_camera_view.xml:16
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/camera_view.xml:63
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/barcode_camera_view.xml:16
+-keep class net.doo.snap.camera.ScanbotCameraView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/polygon_view.xml:60
+-keep class net.doo.snap.ui.EditPolygonImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/polygon_view.xml:74
+-keep class net.doo.snap.ui.MagnifierView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/Techno-Disaster/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.aar/80fdbe65c2c97dad5e6140d6e3ee37ee/res/layout/camera_view.xml:70
+-keep class net.doo.snap.ui.PolygonView { <init>(android.content.Context, android.util.AttributeSet); }
+
