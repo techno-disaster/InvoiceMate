@@ -9,6 +9,8 @@
 
 </div>
 
+#### Update: License key expired, will renew sometime later.(you can fork and add your own key to run the app.)
+
 ## Features:
 
 #### Scanning UI
